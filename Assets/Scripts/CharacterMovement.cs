@@ -1,19 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using CallbackContext = UnityEngine.InputSystem.InputAction.CallbackContext;
 
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private Animator anim;
-    [SerializeField] private Vector3 motionDebug;
+    [SerializeField] private VectorDampener motionVector;
+
 
     private int VelXId;
     private int VelYId;
 
+    public void Move(CallbackContext ctx)
+    {
+        Vector2 direction = ctx.ReadValue<Vector2>();
+        motionVector.TargetValue = direction;
+       
+    }
+
+
 #if UNITY_EDITOR
     private void OnValidate()
     {
-        Move(motionDebug);
     }
 #endif
     private void Awake()
@@ -21,9 +31,11 @@ public class CharacterMovement : MonoBehaviour
         VelXId = Animator.StringToHash("VelX");
         VelYId = Animator.StringToHash("VelY");
     }
-    public void Move(Vector3 motionDirection)
+    private void Update()
     {
-        anim.SetFloat(VelXId, motionDirection.x);
-        anim.SetFloat(VelYId, motionDirection.y);
+        motionVector.Update();
+        Vector2 direction = motionVector.CurrentValue;
+        anim.SetFloat(VelXId, direction.x);
+        anim.SetFloat(VelYId, direction.y);
     }
 }
