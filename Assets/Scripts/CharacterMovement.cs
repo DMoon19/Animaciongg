@@ -7,7 +7,7 @@ using CallbackContext = UnityEngine.InputSystem.InputAction.CallbackContext;
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private Animator anim;
-    [SerializeField] private VectorDampener motionVector;
+    [SerializeField] private VectorDampener motionVector = new VectorDampener(true);
 
 
     private int VelXId;
