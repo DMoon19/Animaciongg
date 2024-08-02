@@ -19,7 +19,11 @@ public class CharacterMovement : MonoBehaviour
         motionVector.TargetValue = direction;
        
     }
-
+    public void ToggleSprint(CallbackContext ctx) 
+    {
+        bool val = ctx.ReadValueAsButton();
+        motionVector.Clamp = !val;
+    }
 
 #if UNITY_EDITOR
     private void OnValidate()
