@@ -153,6 +153,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 0
+  isGrounded: 0
 --- !u!143 &106401408
 CharacterController:
   m_ObjectHideFlags: 0
@@ -315,7 +316,8 @@ MonoBehaviour:
   groundDistance: 0.1
   groundMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
+  isGrounded: 0
 --- !u!1 &526222052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 89d08b61a811f4147a302ce177334c1e,
@@ -346,6 +348,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 0
+  isGrounded: 0
 --- !u!143 &526222054
 CharacterController:
   m_ObjectHideFlags: 0
