@@ -1,4 +1,5 @@
 # Animaciongg
+## Taller1
 
 Video 3 modelos con animación de mixamo
 
@@ -17,7 +18,12 @@ https://github.com/user-attachments/assets/3cd58f91-6836-4b4f-a012-241adc7d0930
 https://github.com/user-attachments/assets/10cf8400-d0b1-4a70-b3a8-ee893c901e1e
 
 
-3. ???
+3. Zombie
 
 
 https://github.com/user-attachments/assets/f450f787-cbef-4014-8388-9c88349834cd
+
+## Taller2
+
+https://github.com/user-attachments/assets/49f17ab9-be9b-43c8-811e-d08f0b7ac620
+
