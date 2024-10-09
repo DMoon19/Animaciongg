@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/49f17ab9-be9b-43c8-811e-d08f0b7ac620
 ## Taller3
 
 ### Paradigma
-
+https://github.com/DMoon19/Animaciongg/issues/2#issue-2574727310
 
 
 ### Videos
