@@ -27,3 +27,11 @@ https://github.com/user-attachments/assets/f450f787-cbef-4014-8388-9c88349834cd
 
 https://github.com/user-attachments/assets/49f17ab9-be9b-43c8-811e-d08f0b7ac620
 
+
+## Taller3
+
+### Paradigma
+
+
+
+### Videos
