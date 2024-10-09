@@ -33,5 +33,9 @@ https://github.com/user-attachments/assets/49f17ab9-be9b-43c8-811e-d08f0b7ac620
 ### Paradigma
 https://github.com/DMoon19/Animaciongg/issues/2#issue-2574727310
 
+#### Link del paradigma https://www.figma.com/board/oas2ofBevi4ROeQtlPSLVb/Untitled?node-id=0-1&t=Ez8bynRBTFXBWJzw-1
 
-### Videos
+
+### Video
+
+https://github.com/DMoon19/Animaciongg/issues/3#issue-2574754226
